@@ -9,12 +9,12 @@
 .container{
   width: 100%;
   height: auto;
-  background-color: rgb(228, 222, 214);
+  background-color: rgb(241, 235, 228);
 }
 .navbar{
   width: 100%;
   height: 12vh;
-  color: #ff5a8b;
+  color: #d1557acd;
   display: flex;
   align-items: center;
   justify-content:space-around ;
