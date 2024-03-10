@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+.b-container{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: #ffff;
+}
+.s-container{
+    width: 75%;
+    height: auto;
+    margin: auto;
+}
+.bd-img{
+    width: 100%;
+    height: 100vh;
+
+}
+.bd-img img{
+    width: 100%;
+    height: 100%;
+}
+.bd-content{
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    padding-top: 30px ;
+    font-size: 25px;
+}
+#bd-question{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 30px;
+    justify-content: space-around;
+}
+#bd-question button{
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    margin: 20px 40px 0px 40px;
+    border-radius: 7px;
+    color: #ffff;
+}
+.no{
+    background-color: #ef1a1a;
+    position: relative;
+}
+.yes{
+position: absolute;
+top: 0;
+height: 100%;
+width: 100%;
+left: 0;
+z-index: 5;
+opacity: 0; 
+display: flex;
+align-items: center;
+justify-content: center;
+transition: all 0.2s ease-in-out;
+font-size: 25px;
+background-color:#20be35 ;
+border-radius: 7px;
+}
+
+.yes-btn:hover{
+    opacity: 0.7;
+}
+.no:hover .yes {
+    opacity: 1;
+
+}
+#main-content{
+    width: 100%;
+    padding-top: 30px;
+
+}
+.click{
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    margin: 20px 40px 0px 40px;
+    border-radius: 7px;
+    background-color: #fd589d;
+    color: #ffff;
+}
+.click:hover{
+    opacity: 0.6;
+}
